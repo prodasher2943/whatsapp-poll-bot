@@ -24,4 +24,6 @@ jobs:
           ID_INSTANCE: ${{ secrets.ID_INSTANCE }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: python bot.py
+        run: |
+          ls -R  # This command lists all files so we can see where bot.py is
+          python bot.py
