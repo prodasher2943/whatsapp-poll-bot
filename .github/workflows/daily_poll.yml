@@ -25,4 +25,4 @@ jobs:
           ID_INSTANCE: ${{ secrets.ID_INSTANCE }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: python ./bot.py
+        run: python ./././bot.py
