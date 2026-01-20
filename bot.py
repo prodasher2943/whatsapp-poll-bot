@@ -11,7 +11,7 @@ def send_poll():
     
     payload = {
         "chatId": chat_id,
-        "message": "Good morning! Are you joining the gym today?",
+        "message": "Aaj khelne?",
         "options": [
             {"optionName": "Yes"},
             {"optionName": "No"}
