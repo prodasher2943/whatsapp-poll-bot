@@ -13,8 +13,8 @@ def send_poll():
         "chatId": chat_id,
         "message": "Good morning! Are you joining the gym today?",
         "options": [
-            {"Yes": "Yes"},
-            {"No": "No"}
+            {"optionName": "Yes"},
+            {"optionName": "No"}
         ],
         "multipleAnswers": False
     }
